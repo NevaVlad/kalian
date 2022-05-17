@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+body{
+    background-image: url(../img/phon.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.navig li{
+    list-style: none;
+}
+.navig>ul{
+display: flex;
+justify-content: center;
+}
+.navig>ul li a{
+display: block;
+padding: 5px 30px 5px 40px;
+font-size: 18px;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+cursor: pointer;
+}
+.navig li ul{
+   position: absolute;
+  min-height: 150px;
+  padding: 25px;
+  
+}
+.navig li>ul li a{
+    padding: 10px;
+    text-transform: none;
+    display: none;
+    
+}
+.navig li:hover ul a{
+    display: block;
+}
+
+
+.header_2{
+    color: white;
+    text-align: center;
+    padding: 35px 0 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 38px;
+    margin: 10px 0 40px;
+}
+
+.text_2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 38px;
+    margin: 10px 0 40px;
+}
+.text_3{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 38px;
+    margin: 50px 0 40px;
+}
+
+.galery{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 38px;
+    margin: 10px 0 40px;
+    text-align: center;
+    color: white;
+}
+
+
+.logo{
+    width: 74px;
+    border-radius: 50%;
+}
+
+.img{
+    width: 200px ;
+}
+.imga{
+    width: 400px ;
+    height: 400px ;
+}
+.dost{
+    color: white;
+    padding: 75px 75px 75px 10px;
+    font-size: 20px;
+}
